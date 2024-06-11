@@ -1,16 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #00FF00;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #000;
+    color: #00FF00;
     padding: 1em 0;
     text-align: center;
+    border-bottom: 2px solid #00FF00;
 }
 
 nav ul {
@@ -24,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #00FF00;
     text-decoration: none;
 }
 
@@ -33,26 +34,59 @@ main {
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #00FF00;
 }
 
 article {
-    background: #fff;
+    background: #111;
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
+    border: 1px solid #00FF00;
 }
 
 .post-content {
     display: none;
 }
 
+#details ul {
+    list-style: none;
+    padding: 0;
+}
+
+#details ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #00CC00;
+}
+
 footer {
-    background: #333;
-    color: #fff;
+    background: #000;
+    color: #00FF00;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #00FF00;
+}
+
+button {
+    background-color: #00FF00;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #00CC00;
 }
